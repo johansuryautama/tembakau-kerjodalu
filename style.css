@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+    background-color: #054f4a;
+    padding: 20px;
+    /* z-index: 2; */
+}
+.navbar .navbar-brand{
+    font-weight: 800;
+}
+.navbar-brand{
+    color: #ffffff;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #000000;
+    font-weight: 400;
+}
+#navbarSupportedContent > button{
+    background: #000000;
+}
